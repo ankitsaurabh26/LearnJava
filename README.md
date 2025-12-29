@@ -17,3 +17,11 @@ java name
 #### Primitive DataTypes & Size
 
 ![Datatypes](./Images/Primitive.png)
+
+---
+#### Operator Precedence
+<p align="center">
+  <img src="./Images/PrecedenceChart.jpg">
+</p>
+
+---
