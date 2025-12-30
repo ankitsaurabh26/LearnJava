@@ -32,3 +32,17 @@ java name
 </p>
 
 - Every **method** will have their own **Stack**.
+---
+#### Access Modifiers
+
+<p align="center">
+  <img src="./Images/AccessModifiers.jpg">
+</p>
+
+> `default` :  within the `"same package"`
+
+> `protected` : accessible `"within package & subclasses"`
+
+> `private` : only `"within class"` [ no-where else ]
+
+---
