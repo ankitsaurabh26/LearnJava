@@ -43,6 +43,6 @@ java name
 
 > `protected` : accessible `"within package & subclasses"`
 
-> `private` : only `"within class"` [ no-where else ]
+> `private` : only `"within class"` (no-where else)
 
 ---
