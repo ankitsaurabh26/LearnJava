@@ -46,3 +46,13 @@ java name
 > `private` : only `"within class"` (no-where else)
 
 ---
+#### Threads
+We can create threads in java using two ways
+
+<p align="center">
+  <img src="./Images/Thread.webp">
+</p>
+
+The `Thread` class is used to create and control threads in Java. Each object of this class represents a single thread of execution.
+
+---
