@@ -26,10 +26,10 @@ public class Demo16 {
         obj.show(); 
 
         // Lambda with parameters
-        B objectB = (int i) ->
+        B objectB = (i) ->
             System.out.println("Printing value in tell : "+i);
         
         objectB.tell(67);
-        
+
     }
 }
