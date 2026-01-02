@@ -3,6 +3,7 @@
 //     abstract public void code();
 // }
 
+// Other way is interface
 interface Computer {
     void code();    
     // All the variables inside an interface are by default final and static
