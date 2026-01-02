@@ -5,6 +5,9 @@
 
 interface Computer {
     void code();    
+    // All the variables inside an interface are by default final and static
+    int age = 32;
+    String area = "BLR";
 }
 
 // class Laptop extends Computer{
@@ -34,5 +37,7 @@ public class Demo15 {
         Developer BamBahadur = new Developer();
         BamBahadur.devApp(mac);
         BamBahadur.devApp(Dt);
+
+        System.out.println(Computer.area);
     }
 }
