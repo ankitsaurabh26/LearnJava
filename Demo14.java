@@ -10,6 +10,10 @@ class A{
     }
 }
 
+abstract class C{
+    public abstract void tellme();
+}
+
 public class Demo14 {
     public static void main(String[] args) {
         A obj = new A();
@@ -38,6 +42,14 @@ public class Demo14 {
                 System.out.println("Hello Anonymous Class");
             }
         }.hey();
+
+        C objAnonymousInnerCls = new C() {   // here we are not creating object of class C (we can't, since C is an abstract class), instead here we are creating object of anonymous inner class
+            public void tellme(){
+                System.out.println("In tell method of abstract class C");
+            }
+        };
+
+        objAnonymousInnerCls.tellme();
         
     }
 }
