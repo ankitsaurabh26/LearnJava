@@ -28,7 +28,7 @@ public class Demo20 {
         t1.start();
         t2.start();
 
-        t1.join();
+        t1.join(); // this asks main() to hold its execution statements until thread t1 completes its execution
         t2.join();
 
         System.out.println(c.count);
