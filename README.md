@@ -55,4 +55,6 @@ We can create threads in java using two ways
 
 The `Thread` class is used to create and control threads in Java. Each object of this class represents a single thread of execution.
 
+- Runnable is a  `@FunctionalInterface`
+
 ---
