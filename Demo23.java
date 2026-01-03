@@ -1,10 +1,12 @@
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
 public class Demo23 {
     public static void main(String[] args) {
 
         Map<String, Integer> Students = new HashMap<>(); // doesn't follow any order
+        // Map<String, Integer> Students = new Hashtable<>(); // Hashtable is used when you want a synchronize thread
             Students.put("Navneet", 56);
             Students.put("Kishan", 76);
             Students.put("Travis", 11);
