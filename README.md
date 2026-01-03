@@ -58,3 +58,38 @@ The `Thread` class is used to create and control threads in Java. Each object of
 - Runnable is a  `@FunctionalInterface`
 
 ---
+
+#### JDBC (Java Database Connectivity)
+1. `import the package (like : java.sql.*)`
+2. `Load and Register the driver`
+3. `Establish the connection`
+4. `Create the statement`
+5. `Execute the Query`
+6. `Process the result`
+7. `close`
+
+<p align="center">
+  <img src="./Images/JDBC.png">
+</p>
+
+```
+import java.sql.*;
+
+public static void main(String[] args){
+
+      Class.forName("com.mysql.cj.jdbc.Driver");
+        
+        Connection cnt = DriverManager.getConnection("URL","username","password");   // Connection is an interface, getConnection is static method
+        
+        Statement st = cnt.createStatement();
+        ResultSet rs = st.executeQuery("SELECT * FROM STUDENT");
+
+        rs.next(); // shift pointer in the table: row-wise
+        rs.getInt(1); //// Gets data from the 1st(Index) column
+
+        st.close();
+        cnt.close();
+
+}
+
+```
