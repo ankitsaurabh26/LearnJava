@@ -93,3 +93,10 @@ public static void main(String[] args){
 }
 
 ```
+---
+
+#### Collections Framework
+
+<p align="center">
+  <img src="./Images/Collections.png">
+</p>
