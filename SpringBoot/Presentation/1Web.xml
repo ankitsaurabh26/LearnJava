@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://jcp.org"
+  xmlns:xsi="http://w3.org"
+  xsi:schemaLocation="http://jcp.org
+                      http://jcp.org/web-app_4_0.xsd"
+  version="4.0">
+
+    <!-- Define Servlet -->
+    <servlet>
+        <servlet-name>StudentManagement</servlet-name>
+        <servlet-class>com.example.MyServletClass</servlet-class>
+    </servlet>
+
+    <!-- Map the Servlet to a URL -->
+    <servlet-mapping>
+        <servlet-name>StudentManagement</servlet-name>
+        <url-pattern>/students</url-pattern>
+    </servlet-mapping>
+
+</web-app>

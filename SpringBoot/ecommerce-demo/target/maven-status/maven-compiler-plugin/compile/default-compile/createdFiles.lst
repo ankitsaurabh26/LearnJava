@@ -1,0 +1,4 @@
+com\demo\ecommerce\dto\ProductDTO$ProductRequest.class
+com\demo\ecommerce\dto\ProductDTO$ProductResponse.class
+com\demo\ecommerce\EcommerceApplication.class
+com\demo\ecommerce\dto\ProductDTO.class
